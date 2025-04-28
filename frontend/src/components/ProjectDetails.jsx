@@ -94,7 +94,7 @@ const ProjectDetails = () => {
                   <FaGithub className="mr-2 text-accent-purple" />
                   View Code
                 </a>
-                <a
+                {/* <a
                   href={project.demoLink}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -102,7 +102,7 @@ const ProjectDetails = () => {
                 >
                   <FaExternalLinkAlt className="mr-2 text-accent-blue" />
                   Live Demo
-                </a>
+                </a> */}
               </div>
             </div>
 

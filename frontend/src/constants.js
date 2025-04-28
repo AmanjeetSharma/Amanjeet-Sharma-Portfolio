@@ -78,7 +78,7 @@ export const projects = [
         description: "Built order tracking and payment simulation",
       }
     ],
-    githubLink: "https://github.com/amanjeetSharma/ecommerce-java",
+    githubLink: "https://github.com/AmanjeetSharma?tab=repositories",
     demoLink: "#",
     images: [cart1, cart2]
   },
@@ -101,7 +101,7 @@ export const projects = [
         description: "Styled with Tailwind CSS for mobile-first UX",
       }
     ],
-    githubLink: "https://github.com/amanjeetSharma/journeyjunction",
+    githubLink: "https://github.com/AmanjeetSharma?tab=repositories",
     demoLink: "#",
     images: [journey1, journey2, journey3]
   }, {
@@ -123,7 +123,7 @@ export const projects = [
         description: "MongoDB storage with efficient querying",
       }
     ],
-    githubLink: "https://github.com/amanjeetSharma/chat-app",
+    githubLink: "https://github.com/AmanjeetSharma?tab=repositories",
     demoLink: "#",
     images: [chat1, chat2]
   },
