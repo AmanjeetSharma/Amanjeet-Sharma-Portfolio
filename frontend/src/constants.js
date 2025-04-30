@@ -80,7 +80,7 @@ export const projects = [
       }
     ],
     githubLink: "https://github.com/AmanjeetSharma?tab=repositories",
-    demoLink: "#",
+    demoLink: "https://github.com/AmanjeetSharma?tab=repositories",
     images: [cart1, cart2]
   },
   {
@@ -103,7 +103,7 @@ export const projects = [
       }
     ],
     githubLink: "https://github.com/AmanjeetSharma?tab=repositories",
-    demoLink: "#",
+    demoLink: "https://github.com/AmanjeetSharma?tab=repositories",
     images: [journey1, journey2, journey3]
   }, {
     id: 3,
@@ -125,7 +125,7 @@ export const projects = [
       }
     ],
     githubLink: "https://github.com/AmanjeetSharma?tab=repositories",
-    demoLink: "#",
+    demoLink: "https://github.com/AmanjeetSharma?tab=repositories",
     images: [chat1, chat2]
   },
 ];
