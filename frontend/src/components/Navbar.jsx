@@ -19,11 +19,14 @@ const Navbar = () => {
             <span className="text-xl font-bold gradient-text">#include &lt;me&gt;</span>
           </div>
           
+          {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.path}
+                target={link.external ? "_blank" : "_self"}
+                rel={link.external ? "noopener noreferrer" : ""}
                 className="text-gray-300 hover:text-accent-blue transition-colors duration-300"
               >
                 {link.name}
@@ -31,6 +34,7 @@ const Navbar = () => {
             ))}
           </div>
           
+          {/* Mobile Menu Toggle Button */}
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -42,7 +46,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile menu */}
+      {/* Mobile Menu */}
       {mobileMenuOpen && (
         <motion.div 
           initial={{ opacity: 0, height: 0 }}
@@ -55,6 +59,8 @@ const Navbar = () => {
               <a
                 key={link.name}
                 href={link.path}
+                target={link.external ? "_blank" : "_self"}
+                rel={link.external ? "noopener noreferrer" : ""}
                 className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-accent-blue hover:bg-primary-dark transition-colors duration-300"
                 onClick={() => setMobileMenuOpen(false)}
               >

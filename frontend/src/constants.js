@@ -1,12 +1,12 @@
-import journey1 from './assets/project-images/journey/journey1.png';
-import journey2 from './assets/project-images/journey/journey2.png';
-import journey3 from './assets/project-images/journey/journey3.png';
+import journey1 from './assets/project-images/journey/journey1.webp';
+import journey2 from './assets/project-images/journey/journey2.webp';
+import journey3 from './assets/project-images/journey/journey3.webp';
 
-import chat1 from './assets/project-images/chat/chat1.png';
-import chat2 from './assets/project-images/chat/chat2.png';
+import chat1 from './assets/project-images/chat/chat1.webp';
+import chat2 from './assets/project-images/chat/chat2.webp';
 
-import cart1 from './assets/project-images/cart/cart1.png';
-import cart2 from './assets/project-images/cart/cart2.png';
+import cart1 from './assets/project-images/cart/cart1.webp';
+import cart2 from './assets/project-images/cart/cart2.webp';
 
 export const navLinks = [
   { name: "Home", path: "/" },
@@ -15,6 +15,7 @@ export const navLinks = [
   { name: "Education", path: "#education" },
   // { name: "Achievements", path: "#achievements" },
   { name: "Contact", path: "#contact" },
+  { name: "Download CV", path: "https://drive.usercontent.google.com/u/0/uc?id=1u3aAv-Shk9u2mdvvRq93J_r0sz50dUc7&export=download", external: true },
 ];
 
 export const skills = [

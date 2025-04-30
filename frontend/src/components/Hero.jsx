@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin, FaEnvelope, FaArrowDown } from "react-icons/fa";
-import amanjeetPhoto from "../assets/amanjeet-photo.jpg";
+import amanjeetPhoto from "../assets/amanjeet-photo.webp";
 
 const Hero = () => {
   // Animation variants
