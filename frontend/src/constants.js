@@ -15,7 +15,7 @@ export const navLinks = [
   { name: "Education", path: "#education" },
   // { name: "Achievements", path: "#achievements" },
   { name: "Contact", path: "#contact" },
-  { name: "Download CV", path: "https://drive.usercontent.google.com/u/0/uc?id=1u3aAv-Shk9u2mdvvRq93J_r0sz50dUc7&export=download", external: true },
+  { name: "Download CV", path: "https://drive.usercontent.google.com/u/0/uc?id=1K8sK1VSmmg__2uVbDbaSwo_k6Gk7c57I&export=download", external: true },
 ];
 
 export const skills = [
