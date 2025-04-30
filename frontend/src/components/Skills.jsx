@@ -6,7 +6,6 @@ import { SiIntellijidea } from "react-icons/si";
 import { skills } from "../constants";
 import { red } from "@mui/material/colors";
 
-// Mapping icons based on the 'icon' value in skills
 const iconComponents = {
   java: FaJava,
   javascript: SiJavascript,
