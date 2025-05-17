@@ -17,7 +17,7 @@ const Footer = () => {
           >
             <h3 className="text-2xl font-bold">
               <span className="text-gray-200">Amanjeet</span>{' '}
-              <span className="gradient-text">Sharma</span>
+              <span className="text-purple-600">Sharma</span>
             </h3>
 
             <p className="text-gray-300 mt-2">Full Stack Developer</p>
@@ -72,7 +72,7 @@ const Footer = () => {
           viewport={{ once: true }}
           className="border-t border-primary-dark mt-8 pt-8 text-center text-gray-400"
         >
-          <p>© {currentYear} Amanjeet Sharma. All rights reserved.</p>
+          <p className="text-amber-200">© {currentYear} Amanjeet Sharma. All rights reserved.</p>
         </motion.div>
       </div>
     </footer>

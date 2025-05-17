@@ -3,16 +3,15 @@ import { FaGithub, FaLinkedin, FaEnvelope, FaArrowDown } from "react-icons/fa";
 import amanjeetPhoto from "../assets/amanjeet-photo.webp";
 
 const Hero = () => {
-  // Animation variants
   const container = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
       transition: {
         staggerChildren: 0.2,
-        delayChildren: 0.3
-      }
-    }
+        delayChildren: 0.3,
+      },
+    },
   };
 
   const item = {
@@ -23,9 +22,9 @@ const Hero = () => {
       transition: {
         type: "spring",
         stiffness: 120,
-        damping: 10
-      }
-    }
+        damping: 10,
+      },
+    },
   };
 
   const floating = {
@@ -34,9 +33,9 @@ const Hero = () => {
       transition: {
         duration: 4,
         repeat: Infinity,
-        ease: "easeInOut"
-      }
-    }
+        ease: "easeInOut",
+      },
+    },
   };
 
   return (
@@ -63,10 +62,10 @@ const Hero = () => {
               Skilled in Java, JavaScript, and modern web technologies.
             </motion.p>
 
-            <motion.div className="flex space-x-4" variants={item}>
+            <motion.div className="flex flex-wrap gap-4" variants={item}>
               <motion.a
                 href="#contact"
-                className="neumorphic-btn text-accent-blue hover:text-accent-purple"
+                className="neumorphic-btn px-4 py-2 sm:px-6 sm:py-2.5 text-sm sm:text-base text-accent-blue hover:text-accent-purple"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -77,28 +76,28 @@ const Hero = () => {
                 href="https://github.com/amanjeetSharma"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="neumorphic-btn p-3 rounded-full"
+                className="neumorphic-btn p-2 sm:p-3 rounded-full"
                 whileHover={{ y: -3 }}
               >
-                <FaGithub className="text-accent-purple" />
+                <FaGithub className="text-accent-purple text-lg sm:text-xl" />
               </motion.a>
 
               <motion.a
                 href="https://linkedin.com/in/amanjeet-sharma-20b75a252"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="neumorphic-btn p-3 rounded-full"
+                className="neumorphic-btn p-2 sm:p-3 rounded-full"
                 whileHover={{ y: -3 }}
               >
-                <FaLinkedin className="text-accent-blue" />
+                <FaLinkedin className="text-accent-blue text-lg sm:text-xl" />
               </motion.a>
 
               <motion.a
                 href="mailto:amansharma23503@gmail.com"
-                className="neumorphic-btn p-3 rounded-full"
+                className="neumorphic-btn p-2 sm:p-3 rounded-full"
                 whileHover={{ y: -3 }}
               >
-                <FaEnvelope className="text-accent-purple" />
+                <FaEnvelope className="text-accent-purple text-lg sm:text-xl" />
               </motion.a>
             </motion.div>
           </motion.div>
@@ -106,14 +105,12 @@ const Hero = () => {
           {/* Right Column - Photo */}
           <div className="flex justify-center">
             <div className="relative">
-              {/* Floating background glow */}
               <motion.div
                 className="absolute inset-0 rounded-full bg-gradient-to-r from-accent-blue to-accent-purple blur-lg opacity-20 -z-10"
                 variants={floating}
                 animate="float"
               />
 
-              {/* Perfect circle photo container */}
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-primary-light shadow-neumorphic">
                 <img
                   src={amanjeetPhoto}
@@ -145,7 +142,7 @@ const Hero = () => {
 
         {/* Scroll indicator */}
         <motion.div
-          className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
+          className="absolute bottom-0 left-1/2 transform -translate-x-1/2"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.5 }}
@@ -155,9 +152,9 @@ const Hero = () => {
               animate={{ y: [0, 10, 0] }}
               transition={{ duration: 1.5, repeat: Infinity }}
             >
-              <FaArrowDown className="text-accent-blue text-xl" />
+              <FaArrowDown className="text-accent-blue text-xl mt-3 text-amber-200" />
             </motion.div>
-            <span className="text-xs mt-2 text-amber-200">Scroll Down</span>
+            <span className="text-xs mt-4 text-amber-200">Scroll Down</span>
           </div>
         </motion.div>
       </div>

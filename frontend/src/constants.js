@@ -22,39 +22,116 @@ export const skills = [
   {
     category: "Languages",
     skills: [
-      { name: "Java", icon: "java" },
-      { name: "JavaScript", icon: "javascript" },
-      { name: "C++", icon: "cplusplus" },
+      { 
+        name: "Java", 
+        icon: "java",
+        description: "A class-based, object-oriented programming language designed to have as few implementation dependencies as possible.",
+        docLink: "https://docs.oracle.com/javase/tutorial/"
+      },
+      { 
+        name: "JavaScript", 
+        icon: "javascript",
+        description: "A programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm.",
+        docLink: "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+      },
+      { 
+        name: "C++", 
+        icon: "cplusplus",
+        description: "A programming language created as an extension of the C programming language with object-oriented features.",
+        docLink: "https://en.cppreference.com/w/"
+      },
     ],
   },
   {
     category: "Frameworks & Libraries",
     skills: [
-      { name: "HTML/CSS", icon: "html5" },
-      { name: "Node.js", icon: "nodejs" },
-      { name: "ReactJs", icon: "react" },
-      { name: "Express", icon: "express" },
-      { name: "Bootstrap", icon: "bootstrap" },
-      { name: "Tailwind", icon: "tailwind" },
-      { name: "redux", icon: "redux" },
+      { 
+        name: "HTML/CSS", 
+        icon: "html5",
+        description: "HTML (HyperText Markup Language) is the standard markup language for documents designed to be displayed in a web browser. CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in HTML.",
+        docLink: "https://developer.mozilla.org/en-US/docs/Web/HTML"
+      },
+      { 
+        name: "Node.js", 
+        icon: "nodejs",
+        description: "An open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.",
+        docLink: "https://nodejs.org/en/docs/"
+      },
+      { 
+        name: "ReactJs", 
+        icon: "react",
+        description: "A free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies.",
+        docLink: "https://reactjs.org/docs/getting-started.html"
+      },
+      { 
+        name: "Express", 
+        icon: "express",
+        description: "A back end web application framework for Node.js designed for building web applications and APIs.",
+        docLink: "https://expressjs.com/"
+      },
+      { 
+        name: "Bootstrap", 
+        icon: "bootstrap",
+        description: "A free and open-source CSS framework directed at responsive, mobile-first front-end web development.",
+        docLink: "https://getbootstrap.com/docs/"
+      },
+      { 
+        name: "Tailwind", 
+        icon: "tailwind",
+        description: "A utility-first CSS framework for rapidly building custom user interfaces.",
+        docLink: "https://tailwindcss.com/docs"
+      },
+      { 
+        name: "Redux", 
+        icon: "redux",
+        description: "A predictable state container for JavaScript apps that helps you write applications that behave consistently.",
+        docLink: "https://redux.js.org/"
+      },
     ],
   },
   {
     category: "Databases",
     skills: [
-      { name: "MySQL", icon: "mysql" },
-      { name: "MongoDB", icon: "mongodb" },
+      { 
+        name: "MySQL", 
+        icon: "mysql",
+        description: "An open-source relational database management system that uses SQL (Structured Query Language).",
+        docLink: "https://dev.mysql.com/doc/"
+      },
+      { 
+        name: "MongoDB", 
+        icon: "mongodb",
+        description: "A source-available cross-platform document-oriented database program that uses JSON-like documents with optional schemas.",
+        docLink: "https://docs.mongodb.com/"
+      },
     ],
   },
   {
     category: "Developer Tools",
     skills: [
-      { name: "GitHub", icon: "github" },
-      { name: "VS Code", icon: "vscode" },
-      { name: "IntelliJ IDEA", icon: "intellij" },
+      { 
+        name: "GitHub", 
+        icon: "github",
+        description: "A provider of Internet hosting for software development and version control using Git.",
+        docLink: "https://docs.github.com/en"
+      },
+      { 
+        name: "VS Code", 
+        icon: "vscode",
+        description: "A source-code editor made by Microsoft with support for debugging, syntax highlighting, intelligent code completion, snippets, and more.",
+        docLink: "https://code.visualstudio.com/docs"
+      },
+      { 
+        name: "IntelliJ IDEA", 
+        icon: "intellij",
+        description: "An integrated development environment written in Java for developing computer software.",
+        docLink: "https://www.jetbrains.com/idea/documentation/"
+      },
     ],
   },
 ];
+
+
 export const projects = [
   {
     id: 1,
@@ -144,7 +221,7 @@ export const education = [
     details: "Percentage: 79%"
   },
   {
-    institution: "KVS no.1 – Jammagar",
+    institution: "KVS no.1 Jammagar",
     degree: "Matriculation",
     duration: "2019 - 2020",
     details: "Percentage: 90%"
