@@ -37,4 +37,4 @@ To run this project locally, follow the steps below:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/your-username/amanjeet-sharma-portfolio.git
+   git clone https://github.com/AmanjeetSharma/amanjeet-sharma-portfolio.git
