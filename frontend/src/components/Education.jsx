@@ -23,7 +23,7 @@ const Education = () => {
       <h1 className="text-4xl my-3 sm:text-5xl text-center font-semibold mt-2 text-gray-900 gradient-text">
         Education
       </h1>
-      <p className="text-md sm:text-xl text-center max-w-2xl text-gray-600 dark:text-gray-300 mt-1">
+      <p className="text-md sm:text-xl text-center max-w-2xl text-gray-300 dark:text-gray-300 mt-1">
         My academic background and educational journey.
       </p>
       
@@ -40,17 +40,17 @@ const Education = () => {
                 )}
               </TimelineSeparator>
               <TimelineContent className="py-2 px-1 sm:px-2">
-                <div className="bg-white/10 dark:bg-gray-800/80 backdrop-blur-lg rounded-xl border border-purple-500 shadow-lg p-5 w-full">
+                <div className="bg-slate-800  backdrop-blur-lg rounded-xl border border-white shadow-lg p-5 w-full">
                   <div className="flex items-center flex-wrap">
                     {getIcon(edu.degree)}
-                    <h3 className="text-xl font-semibold ml-3 text-gray-900 dark:text-white">
+                    <h3 className="text-xl font-semibold ml-3 text-white ">
                       {edu.institution}
                     </h3>
                   </div>
-                  <p className="text-base mt-1 text-gray-600 dark:text-gray-300">
+                  <p className="text-base mt-1 text-white/80 ">
                     {edu.degree}
                   </p>
-                  <p className="text-sm text-gray-500 dark:text-gray-400">
+                  <p className="text-sm text-gray-500 ">
                     {edu.duration}
                   </p>
                 </div>
